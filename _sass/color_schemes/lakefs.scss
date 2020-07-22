@@ -1,11 +1,11 @@
 //
 // Typography
 //
-
+/*
 @font-face {
 	font-family: GalanoGrotesque-ExtraLight;
 	src: local(GalanoGrotesque-ExtraLight),
-		url('../docs/assets/fonts/Rene Bieder - Galano Grotesque ExtraLight.otf')
+		url('../../assets/fonts/Rene Bieder - Galano Grotesque ExtraLight.otf')
 			format('otf');
 	font-style: normal;
 	font-stretch: normal;
@@ -13,7 +13,7 @@
 @font-face {
 	font-family: GalanoGrotesque-Regular;
 	src: local(GalanoGrotesque-Regular),
-		url('../docs/assets/fonts/Rene Bieder - Galano Grotesque.otf')
+		url('../../assets/fonts/Rene Bieder - Galano Grotesque.otf')
 			format('otf');
 	font-style: normal;
 	font-stretch: normal;
@@ -21,7 +21,7 @@
 @font-face {
 	font-family: GalanoGrotesque-Medium;
 	src: local(GalanoGrotesque-Medium),
-		url('../docs/assets/fonts/Rene Bieder - Galano Grotesque Medium.otf')
+		url('../../assets/fonts/Rene Bieder - Galano Grotesque Medium.otf')
 			format('otf');
 	font-style: normal;
 	font-stretch: normal;
@@ -29,7 +29,7 @@
 @font-face {
 	font-family: GalanoGrotesque-Bold;
 	src: local(GalanoGrotesque-Bold),
-		url('../docs/assets/fonts/Rene Bieder - Galano Grotesque Bold.otf')
+		url('../../assets/fonts/Rene Bieder - Galano Grotesque Bold.otf')
 			format('otf');
 	font-style: normal;
 	font-stretch: normal;
@@ -168,5 +168,5 @@ $media-queries: (
 ) !default;
 
 body {
-	font-family: GalanoGrotesque-Regular;
+	//	font-family: GalanoGrotesque-Regular;
 }

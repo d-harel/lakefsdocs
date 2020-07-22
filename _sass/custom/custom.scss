@@ -1,8 +1,41 @@
 @import 'pygments.css';
-body {
-	font-family: GalanoGrotesque-Regular;
-}
 
+//
+// Typography
+//
+
+@font-face {
+	font-family: GalanoGrotesque-ExtraLight;
+	src: local(GalanoGrotesque-ExtraLight),
+		url('../../assets/fonts/Rene Bieder - Galano Grotesque ExtraLight.otf')
+			format('otf');
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: GalanoGrotesque-Regular;
+	src: local(GalanoGrotesque-Regular),
+		url('../../assets/fonts/Rene Bieder - Galano Grotesque.otf')
+			format('otf');
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: GalanoGrotesque-Medium;
+	src: local(GalanoGrotesque-Medium),
+		url('../../assets/fonts/Rene Bieder - Galano Grotesque Medium.otf')
+			format('otf');
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: GalanoGrotesque-Bold;
+	src: local(GalanoGrotesque-Bold),
+		url('../../assets/fonts/Rene Bieder - Galano Grotesque Bold.otf')
+			format('otf');
+	font-style: normal;
+	font-stretch: normal;
+}
 .highlight {
 }
 
