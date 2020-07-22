@@ -4,31 +4,6 @@
 // Typography
 //
 
-@font-face {
-	font-family: GalanoGrotesque-ExtraLight;
-	src: local(GalanoGrotesque-ExtraLight),
-		url('../assets/fonts/Rene Bieder - Galano Grotesque ExtraLight.otf');
-}
-@font-face {
-	font-family: GalanoGrotesque;
-	src: local(GalanoGrotesque-Regular),
-		url('../assets/fonts/Rene Bieder - Galano Grotesque.otf');
-}
-@font-face {
-	font-family: GalanoGrotesque-Medium;
-	src: local(GalanoGrotesque-Medium),
-		url('../assets/fonts/Rene Bieder - Galano Grotesque Medium.otf');
-}
-@font-face {
-	font-family: GalanoGrotesque-Bold;
-	src: local(GalanoGrotesque-Bold),
-		url('../assets/fonts/Rene Bieder - Galano Grotesque Bold.otf');
-}
-
-body {
-	font-family: GalanoGrotesque;
-}
-
 $link-color: #36b5be;
 
 .site-footer {
