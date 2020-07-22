@@ -6,8 +6,10 @@ search_enabled: true
 # Enable support for hyphenated search words:
 search_tokenizer_separator: /[\s/]+/
 
-logo: "/assets/logo.png"
+logo: '/assets/logo.png'
 
 ga_tracking: UA-167126751-1
 
-footer_content: "Copyright &copy; 2020 Treeverse Labs LTD."
+footer_content: 'Copyright &copy; 2020 Treeverse Labs LTD.'
+
+color_scheme: lakefs
