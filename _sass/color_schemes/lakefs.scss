@@ -1,0 +1,83 @@
+@import 'pygments.css';
+
+//
+// Typography
+//
+
+@font-face {
+	font-family: GalanoGrotesque-ExtraLight;
+	src: local(GalanoGrotesque-ExtraLight),
+		url('../../docs/assets/fonts/Rene Bieder - Galano Grotesque ExtraLight.otf');
+}
+@font-face {
+	font-family: GalanoGrotesque-Regular;
+	src: local(GalanoGrotesque-Regular),
+		url('../../docs/assets/fonts/Rene Bieder - Galano Grotesque.otf');
+}
+@font-face {
+	font-family: GalanoGrotesque-Medium;
+	src: local(GalanoGrotesque-Medium),
+		url('../../docs/assets/fonts/Rene Bieder - Galano Grotesque Medium.otf');
+}
+@font-face {
+	font-family: GalanoGrotesque-Bold;
+	src: local(GalanoGrotesque-Bold),
+		url('../../docs/assets/fonts/Rene Bieder - Galano Grotesque Bold.otf');
+}
+
+$link-color: #36b5be;
+
+.site-footer {
+	display: none;
+}
+
+// notes
+
+$note-color: #ffdf7e;
+$note-info-color: #cce5ff;
+$note-danger-color: #ea8685;
+
+.note {
+	padding: 10px;
+	background-color: $note-color;
+	border: 1px solid darken($note-color, 30%);
+	border-radius: 3px;
+	strong {
+		color: darken($note-color, 50%);
+	}
+}
+
+.note.note-info {
+	background-color: $note-info-color;
+	border: 1px solid darken($note-info-color, 30%);
+	strong {
+		color: darken($note-info-color, 40%);
+	}
+}
+
+.note.note-danger {
+	background-color: $note-danger-color;
+	border: 1px solid darken($note-danger-color, 30%);
+	strong {
+		color: darken($note-danger-color, 40%);
+	}
+}
+
+.highlighter-rouge code {
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+}
+
+.cta {
+	margin-top: 30px;
+	.btn {
+		font-size: 1.25em;
+		margin-right: 10px;
+	}
+}
+
+.ref-list li {
+	margin-bottom: 25px;
+}

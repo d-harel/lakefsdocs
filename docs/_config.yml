@@ -10,4 +10,6 @@ ga_tracking: UA-167126751-1
 
 footer_content: 'Copyright &copy; 2020 Treeverse Labs LTD.'
 
+color_scheme: lakefs
+
 remote_theme: pmarsceill/just-the-docs
