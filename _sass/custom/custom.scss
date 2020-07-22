@@ -8,32 +8,21 @@
 	font-family: GalanoGrotesque-ExtraLight;
 	src: local(GalanoGrotesque-ExtraLight),
 		url('../../docs/assets/fonts/Rene Bieder - Galano Grotesque ExtraLight.otf');
-
-	font-style: normal;
-	font-stretch: normal;
 }
 @font-face {
 	font-family: GalanoGrotesque-Regular;
 	src: local(GalanoGrotesque-Regular),
 		url('../../docs/assets/fonts/Rene Bieder - Galano Grotesque.otf');
-	font-style: normal;
-	font-stretch: normal;
 }
 @font-face {
 	font-family: GalanoGrotesque-Medium;
 	src: local(GalanoGrotesque-Medium),
 		url('../../docs/assets/fonts/Rene Bieder - Galano Grotesque Medium.otf');
-	font-style: normal;
-	font-stretch: normal;
 }
 @font-face {
 	font-family: GalanoGrotesque-Bold;
 	src: local(GalanoGrotesque-Bold),
 		url('../../docs/assets/fonts/Rene Bieder - Galano Grotesque Bold.otf');
-	font-style: normal;
-	font-stretch: normal;
-}
-.highlight {
 }
 
 $link-color: #36b5be;
