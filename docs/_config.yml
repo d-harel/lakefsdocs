@@ -6,8 +6,52 @@ search_tokenizer_separator: /[\s/]+/
 
 logo: '/assets/logo.png'
 
-footer_content: 'Copyright &copy; 2020 Treeverse Labs LTD.'
-
-color_scheme: lakefs
-
 remote_theme: pmarsceill/just-the-docs
+
+# Aux links for the upper right navigation
+aux_links:
+    'Docs':
+        - 'https://docs.lakefs.io/'
+    'Github':
+        - 'http://localhost:4000/'
+    'Blog':
+        - 'https://lakefs.daniellakh.com/'
+
+buttons:
+    'Get Started':
+        - 'https://docs.lakefs.io/'
+
+# FOOTER
+# use "footer_content" for simple footer
+# footer_content: 'Copyright &copy; 2020 Treeverse Labs LTD.'
+footer:
+    'img-bottom':
+        - '/assets/by-treeverse.png'
+    'img-bottom-link':
+        - 'https://docs.lakefs.io/'
+
+footer_links:
+    'Docs':
+        - 'https://docs.lakefs.io/'
+    'Github':
+        - 'http://localhost:4000/'
+    'Blog':
+        - 'https://lakefs.daniellakh.com/'
+    'Contact Us':
+        - 'https://lakefs.daniellakh.com/'
+
+footer_social:
+    'linkedin':
+        - 'https://docs.lakefs.io/'
+    'github':
+        - 'http://localhost:4000/'
+    'twitter':
+        - 'https://lakefs.daniellakh.com/'
+    'slack':
+        - 'https://lakefs.daniellakh.com/'
+
+footer_bottom_links:
+    'Terms of use':
+        - 'https://docs.lakefs.io/'
+    'Privacy Policy':
+        - 'http://localhost:4000/'

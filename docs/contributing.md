@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contributing
+section: Community
 nav_order: 10
 has_children: false
 ---

@@ -1,10 +1,11 @@
 ---
 layout: default
 title: What is lakeFS
+section: Documentation
 nav_order: 0
 ---
 
-# What is lakeFS1
+# What is lakeFS
 
 {: .no_toc }
 
@@ -19,7 +20,7 @@ lakeFS is an open source project that empowers your object storage data lake (e.
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc .pb-5 }
+   {:toc .pb-5}
 
 ## Why? What are Object Stores missing when used as a Data Lake?
 

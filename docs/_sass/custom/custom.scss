@@ -18,6 +18,235 @@
 	src: local(GalanoGrotesque-Bold),
 		url('../fonts/Rene Bieder - Galano Grotesque Bold.otf');
 }
+
+$white: #ffffff;
+$pale-grey: #f1f9f9;
+$light-blue-grey: #def1f1;
+$teal-green: #279890;
+$black: #000000;
+$battleship-grey: #6e7171;
+$warm-grey: #7e7e7e;
+$warm-grey-two: #949494;
+$viridian: #258c82;
+$aqua-marine: #2ce5b5;
+$border-grey: #dadada;
+$white-two: #f8f8f8;
+
+// General
+
 body {
 	font-family: GalanoGrotesque;
+	display: flex;
+	.main {
+		width: 75%;
+		max-width: 75%;
+		margin-left: 0;
+		float: right;
+		position: relative;
+		.main-content-wrap {
+			max-width: 800px;
+			padding-top: 80px;
+		}
+	}
+
+	.side-bar {
+		width: 25%;
+		max-width: 25%;
+		position: relative;
+		height: auto;
+	}
 }
+
+a {
+	color: $teal-green;
+}
+
+// Header
+
+.main .main-header,
+.side-bar .site-header {
+	background-color: white;
+	height: 80px;
+	max-height: 80px;
+	min-height: 80px;
+	border: 0;
+	position: fixed;
+	z-index: 2;
+}
+.main .main-header {
+	width: 75%;
+	nav.aux-nav {
+		width: 100%;
+		padding: 0;
+		max-width: 1080px;
+		.aux-nav-list {
+			justify-content: flex-end;
+			padding: 20px 80px;
+			.aux-nav-list-item {
+				a.site-button {
+					font-size: 16px;
+					line-height: 1.63;
+					letter-spacing: 0.05px;
+					color: $black;
+					margin: 0 4px;
+					&:hover {
+						background-image: none;
+					}
+				}
+				&:hover,
+				&.active {
+					a {
+						color: $teal-green;
+					}
+				}
+				&.button {
+					a.site-button {
+						font-size: 16px;
+						line-height: 1.63;
+						letter-spacing: 0.05px;
+						color: $white;
+						margin: 0 0 0 20px;
+						padding: 20px;
+						background-color: $teal-green;
+						&:hover {
+							background-color: $viridian;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.side-bar:after {
+	content: ' ';
+	position: absolute;
+	width: 100vw;
+	top: 80px;
+	box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.23);
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+.side-bar .site-header {
+	width: 25%;
+	justify-content: flex-end;
+	top: 0;
+	a.site-title {
+		max-width: 250px;
+		padding: 0;
+
+		.site-logo {
+			width: 150px;
+			height: inherit;
+		}
+	}
+}
+.main .main-content,
+.side-bar .search {
+	z-index: -1;
+	position: relative;
+}
+
+.site-logo {
+	width: 135px;
+	height: 30px;
+}
+
+// Sidebar
+.side-bar {
+	padding-top: 80px;
+	border: 0;
+	display: block;
+	background-color: $white-two;
+
+	.search {
+		margin-top: 35px;
+		margin-left: calc(100% - 290px);
+		margin-right: 40px;
+		max-width: 250px !important;
+		max-height: 40px !important;
+		width: 250px !important;
+		z-index: 50;
+
+		.search-input {
+			background-color: $white-two;
+			border: 1px solid $border-grey;
+			border-radius: 4px;
+			color: $battleship-grey;
+			&:focus,
+			&:active {
+				background-color: $white;
+				color: black;
+			}
+			.search-icon {
+				color: $battleship-grey;
+			}
+		}
+
+		.search-input:focus + .search-label .search-icon {
+			color: $teal-green;
+		}
+	}
+
+	nav.site-nav {
+		padding: 0;
+		margin-top: 35px;
+		width: 100%;
+		.nav-list {
+			width: 100%;
+			.nav-list-item {
+				padding-right: 40px;
+				padding-left: calc(100% - 290px);
+				&.active,
+				&:hover {
+					background-color: #ededed;
+				}
+				&.header {
+					color: $teal-green;
+					font-family: GalanoGrotesque-Bold;
+					font-size: 18px !important;
+				}
+
+				a.nav-list-link {
+					padding: 8px 0;
+					font-size: 16px !important;
+					color: $black;
+					&.active,
+					&:hover {
+						background-color: none;
+						background-image: none;
+						font-family: GalanoGrotesque-Medium;
+					}
+				}
+				.nav-list-expander {
+					right: 40px;
+					width: 22px;
+					height: 22px;
+					padding: 0;
+					margin: 8px 0;
+					svg {
+						color: $black;
+					}
+					&:hover {
+						background-color: none;
+						background-image: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+//Search Fixes
+.search-active .main {
+	position: inherit;
+	right: inherit;
+	left: inherit;
+}
+.search-overlay {
+	display: none;
+}
+.search-result-doc .search-result-icon {
+	color: $teal-green;
+}
+// Footer
