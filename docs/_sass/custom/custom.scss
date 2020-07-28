@@ -36,24 +36,30 @@ $white-two: #f8f8f8;
 
 body {
 	font-family: GalanoGrotesque;
-	display: flex;
-	.main {
-		width: 75%;
-		max-width: 75%;
-		margin-left: 0;
-		float: right;
-		position: relative;
-		.main-content-wrap {
-			max-width: 800px;
-			padding-top: 80px;
+	.body-wrapper,
+	footer {
+		display: flex;
+		.main,
+		.footer-main {
+			width: 75%;
+			max-width: 75%;
+			margin-left: 0;
+			float: right;
+			position: relative;
+			.main-content-wrap {
+				max-width: 800px;
+				padding-top: 80px;
+			}
 		}
-	}
 
-	.side-bar {
-		width: 25%;
-		max-width: 25%;
-		position: relative;
-		height: auto;
+		.side-bar,
+		.footer-sidebar {
+			width: 25%;
+			max-width: 25%;
+			position: relative;
+			height: auto;
+			background-color: $white-two;
+		}
 	}
 }
 
@@ -154,10 +160,9 @@ a {
 
 // Sidebar
 .side-bar {
-	padding-top: 80px;
+	padding: 80px 0;
 	border: 0;
 	display: block;
-	background-color: $white-two;
 
 	.search {
 		margin-top: 35px;
@@ -192,6 +197,8 @@ a {
 		padding: 0;
 		margin-top: 35px;
 		width: 100%;
+		background-color: $white-two;
+
 		.nav-list {
 			width: 100%;
 			padding: 0;
@@ -274,3 +281,78 @@ a {
 	color: $teal-green;
 }
 // Footer
+footer {
+	height: 360px;
+	.footer-main {
+		padding: 80px;
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			li {
+				display: inline-block;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.row {
+			display: flex;
+			.left,
+			.right {
+				width: 50%;
+			}
+			.right {
+				display: flex;
+				justify-content: flex-end;
+			}
+			.site-title {
+				padding: 0;
+				margin-bottom: 30px;
+				.site-logo {
+					height: 45px;
+				}
+			}
+			.footer-links {
+				li {
+					margin-right: 40px;
+					a {
+						padding: 0;
+						color: $black;
+						font-size: 18px;
+						&:hover {
+							color: $teal-green;
+						}
+					}
+				}
+			}
+			.footer-social,
+			.bottom-footer-links {
+				li {
+					a {
+						padding: 0 15px;
+						font-size: 16px;
+						color: $warm-grey-two;
+						&:last-of-type {
+							padding-right: 0;
+						}
+						&:hover {
+							color: $teal-green;
+						}
+					}
+				}
+			}
+		}
+		.top-border {
+			padding-top: 30px;
+			margin-top: 30px;
+			border-top: 1px solid $border-grey;
+		}
+		a:hover {
+			background-color: transparent !important;
+			background-image: none !important;
+		}
+	}
+	.footer-sidebar {
+		z-index: -1;
+	}
+}
