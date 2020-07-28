@@ -251,10 +251,13 @@ body {
 						letter-spacing: 0.05px;
 						color: $white;
 						margin: 0 0 0 20px;
-						padding: 20px;
+						padding: 18px;
+						border-radius: 2px;
 						background-color: $teal-green;
+						border: 2px solid $teal-green;
 						&:hover {
-							background-color: $viridian;
+							background-color: $white;
+							color: $teal-green;
 						}
 					}
 				}
@@ -277,12 +280,16 @@ body {
 	justify-content: flex-end;
 	top: 0;
 	a.site-title {
-		max-width: 250px;
+		max-width: 290px;
 		padding: 0;
 
 		.site-logo {
 			width: 150px;
 			height: inherit;
+		}
+		&:hover {
+			background-image: none;
+			background-color: transparent;
 		}
 	}
 }
@@ -297,6 +304,7 @@ body {
 	padding: 80px 0;
 	border: 0;
 	display: block;
+	z-index: 1;
 
 	.search {
 		margin-top: 35px;
