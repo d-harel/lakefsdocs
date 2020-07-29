@@ -28,7 +28,7 @@ footer:
     'img-bottom':
         - '/assets/by-treeverse.png'
     'img-bottom-link':
-        - 'https://docs.lakefs.io/'
+        - 'http://www.treeverse.io/'
 
 footer_links:
     'Docs':
