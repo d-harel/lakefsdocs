@@ -5,6 +5,7 @@ search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 
 logo: '/assets/logo.svg'
+logo_link: 'https://lakefs.io'
 
 remote_theme: pmarsceill/just-the-docs
 
