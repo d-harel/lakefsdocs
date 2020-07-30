@@ -104,13 +104,13 @@ body {
 				display: none;
 			}
 			a {
-				color: $warm-grey-two;
+				color: $black;
 				font-size: 16px;
 				padding: 8px 0;
 				background-image: none;
 				&:hover {
 					background-image: none;
-					color: black;
+					color: $teal-green;
 				}
 			}
 			ol,
