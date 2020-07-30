@@ -4,6 +4,8 @@ search_enabled: true
 # Enable support for hyphenated search words:
 search_tokenizer_separator: /[\s/]+/
 
+aux_links_new_tab: true
+
 logo: '/assets/logo.svg'
 logo_link: 'https://lakefs.io'
 
