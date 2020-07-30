@@ -43,13 +43,13 @@ footer_links:
 
 footer_social:
     'linkedin':
-        - 'https://docs.lakefs.io/'
+        - 'https://www.linkedin.com/company/treeverse'
     'github':
-        - 'http://localhost:4000/'
+        - 'https://github.com/treeverse/lakeFS'
     'twitter':
-        - 'https://lakefs.daniellakh.com/'
+        - 'https://twitter.com/lakeFS'
     'slack':
-        - 'https://lakefs.daniellakh.com/'
+        - 'https://join.slack.com/t/lakefs/shared_invite/zt-g86mkroy-186GzaxR4xOar1i1Us0bzw'
 
 footer_bottom_links:
     'Terms of use':

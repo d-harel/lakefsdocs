@@ -502,6 +502,27 @@ footer {
 					}
 				}
 			}
+			.footer-social {
+				li {
+					a {
+						img {
+							&.hover {
+								display: none;
+							}
+						}
+						&:hover {
+							img {
+								&.no-hover {
+									display: none;
+								}
+								&.hover {
+									display: block;
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		.top-border {
 			padding-top: 30px;
