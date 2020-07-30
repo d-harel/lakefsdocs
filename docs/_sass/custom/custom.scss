@@ -343,6 +343,7 @@ body {
 					color: $teal-green;
 					font-family: GalanoGrotesque-Bold;
 					font-size: 18px !important;
+					letter-spacing: 1.1px;
 					&:hover {
 						background-color: transparent;
 						background-image: none;
@@ -358,6 +359,7 @@ body {
 					padding: 12px 40px 12px calc(100% - 290px);
 					font-size: 16px !important;
 					color: $black;
+					letter-spacing: 1.1px;
 					&.active,
 					&:hover {
 						background-color: #ededed;
